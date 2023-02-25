@@ -154,12 +154,18 @@ nav {
   display: block;
 }
 
-table{
-  
-  margin-left: 30px;
-  display: flexbox;
-  justify-content: space-evenly;
+.meetteam{
+  display: flex;
   justify-content: center;
+  justify-items: center;
+  color: white;
+  font-size: 35px;
+  margin-top: 5px;
+}
+
+.meetteam .simple-btn1{
+  color: white;
+  font-weight: 500;
 }
 
 /* Menu */
