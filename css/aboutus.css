@@ -109,9 +109,17 @@
     .our-team {
       flex-direction: column;
       align-items: center;
-      align-items: center;
     }
   
+    .about-container{
+        flex-direction: column;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    .profile-image img{
+        border-radius: 50%;
+    }
     .our-team img {
       height: 200px;
       width: 300px;
