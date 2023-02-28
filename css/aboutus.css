@@ -109,6 +109,7 @@
     .our-team {
       flex-direction: column;
       align-items: center;
+      align-content: center;
     }
   
     .about-container{
