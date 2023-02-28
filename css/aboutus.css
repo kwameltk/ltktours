@@ -109,10 +109,11 @@
     .our-team {
       flex-direction: column;
       align-items: center;
+      align-items: center;
     }
   
     .our-team img {
-      height: 250px;
+      height: 200px;
       width: 300px;
       object-fit: cover;
     }
