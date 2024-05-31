@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  		<title>LTK-TOURS</title>
-<!-- 
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>LTK-TOURS</title>
+    <!-- 
 
 Highway Template
 
 https://templatemo.com/tm-520-highway
 
 -->
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/fontAwesome.css">
-        <link rel="stylesheet" href="css/light-box.css">
-        <link rel="stylesheet" href="css/templatemo-style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/fontAwesome.css">
+    <link rel="stylesheet" href="css/light-box.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+    <link rel="stylesheet" href="send_email.php">
 
-        <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="./js/server.js"></script>
+</head>
 
 <body>
 
@@ -33,265 +36,281 @@ https://templatemo.com/tm-520-highway
             <a href="index.html">LTK<em>TOURS</em></a>
         </div>
         <div class="menu-icon">
-        <span></span>
-      </div>
+            <span></span>
+        </div>
     </nav>
-    <div class="booknow">
-        <a href="#">BOOK <em> NOW</em></a>
-    </div>
 
     <div id="video-container">
         <div class="video-overlay"></div>
         <div class="video-content">
             <div class="inner">
-              <h1>Experience the Wonders of <em>KWAHU</em></h1>
-              <p>Your Destination to Nature Escape</p>
-              <!--<p>Homepage with full-width image gallery</p>-->
+                <h1>Experience the Wonders of <em>KWAHU</em></h1>
+                <p>Your Destination to Nature Escape</p>
+                <!--<p>Homepage with full-width image gallery</p>-->
                 <div class="scroll-icon">
                     <a class="scrollTo" data-scrollTo="portfolio" href="#"><img src="img/scroll-icon.png" alt=""></a>
-                </div>    
+                </div>
             </div>
         </div>
-        <video autoplay="" loop=""muted>
-        	<source src="kwahu-mountains.MP4"type="video/mp4" />
-        </video>  
+        <video autoplay="" loop="" muted>
+            <source src="kwahu-mountains.MP4" type="video/mp4" />
+        </video>
     </div>
 
     <div class="full-screen-portfolio" id="portfolio">
         <div class="container-fluid">
             <div class="col-md-4 col-sm-6">
                 <div class="portfolio-item">
-                    <a href="img/nkofieho-text.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>nkofieho <em> Cave</em></h1>
-                                <p>Make ancestral wish in Pitch Darkness</p>
+                    <a href="img/afram-text.png" data-lightbox="image-1">
+                        <div class="thumb">
+                            <div class="hover-effect">
+                                <div class="hover-content">
+                                    <h1>afram lake <em> Canoeing</em></h1>
+                                    <p>Visit 100 years mother trees</p>
+                                </div>
+                            </div>
+                            <div class="image">
+                                <img src="img/afram_canoeing.jpg">
                             </div>
                         </div>
-                        <div class="image">
-                            <img src="img/nkofieho-img.jpg">
-                        </div>
-                    </div></a>
+                    </a>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="portfolio-item">
-                    <a href="img/paragliding-text.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>kwahu <em>paragliding</em></h1>
-                                <p>funfly at Odweanoma mountains</p>
+                    <a href="img/paragliding-text.png" data-lightbox="image-1">
+                        <div class="thumb">
+                            <div class="hover-effect">
+                                <div class="hover-content">
+                                    <h1>kwahu <em>paragliding</em></h1>
+                                    <p>funfly at Odweanoma mountains</p>
+                                </div>
+                            </div>
+                            <div class="image">
+                                <img src="img/paragliding-2.jpg">
                             </div>
                         </div>
-                        <div class="image">
-                            <img src="img/paragliding-2.jpg">
-                        </div>
-                    </div></a>
+                    </a>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="portfolio-item">
-                    <a href="img/butuase-text.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>butuase <em>waterfall</em></h1>
-                                <p>experience the waterfall jacuzzi</p>
+                    <a href="img/butuase-text.png" data-lightbox="image-1">
+                        <div class="thumb">
+                            <div class="hover-effect">
+                                <div class="hover-content">
+                                    <h1>butuase <em>waterfall</em></h1>
+                                    <p>experience the waterfall jacuzzi</p>
+                                </div>
+                            </div>
+                            <div class="image">
+                                <img src="img/butuase-1.jpg">
                             </div>
                         </div>
-                        <div class="image">
-                            <img src="img/butuase-1.jpg">
-                        </div>
-                    </div></a>
+                    </a>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="portfolio-item">
-                    <a href="img/stoneage-text.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>stone age<em>park</em></h1>
-                                <p>serenity park & stone age museum</p>
+                    <a href="img/stoneage-text.png" data-lightbox="image-1">
+                        <div class="thumb">
+                            <div class="hover-effect">
+                                <div class="hover-content">
+                                    <h1>stone age<em> park</em></h1>
+                                    <p>serenity park & stone age museium</p>
+                                </div>
+                            </div>
+                            <div class="image">
+                                <img src="img/stoneage-img.jpg">
                             </div>
                         </div>
-                        <div class="image">
-                            <img src="img/stoneage-img.jpg">
-                        </div>
-                    </div></a>
+                    </a>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="portfolio-item">
-                    <a href="img/big_portfolio_item_5.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>Kwahu<em> hotels</em></h1>
-                                <p>experience a 5star Hotel or homestay</p>
+                    <a href="https://www.instagram.com/hotels_in_kwahu?igsh=MWRmaGVld2Zlam9qag==">
+                        <div class="thumb">
+                            <div class="hover-effect">
+                                <div class="hover-content">
+                                    <h1>kwahu<em>hotels</em></h1>
+                                    <p>experience a 5star stay or homestay</p>
+                                </div>
+                            </div>
+                            <div class="image">
+                                <img src="img/rockcity_hotel.png">
                             </div>
                         </div>
-                        <div class="image">
-                            <img src="img/portfolio_item_5.png">
-                        </div>
-                    </div></a>
+                    </a>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="portfolio-item">
-                    <a href="img/hidden-text.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>hidden <em>view</em></h1>
-                                <p>prayer mountain scenic view</p> 
+                    <a href="img/hidden-text.png" data-lightbox="image-1">
+                        <div class="thumb">
+                            <div class="hover-effect">
+                                <div class="hover-content">
+                                    <h1>hidden <em>view</em></h1>
+                                    <p>prayer mountain scenic view</p>
+                                </div>
+                            </div>
+                            <div class="image">
+                                <img src="img/hidden-view.jpg">
                             </div>
                         </div>
-                        <div class="image">
-                            <img src="img/hidden-view.jpg">
-                        </div>
-                    </div></a>
+                    </a>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="portfolio-item">
-                    <a href="img/afram-text.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>Afram Lake <em>Canoeing</em></h1>
-                                <p>Visit 100 years mother trees</p>
+                    <a href="img/nkofieho-text.png" data-lightbox="image-1">
+                        <div class="thumb">
+                            <div class="hover-effect">
+                                <div class="hover-content">
+                                    <h1>Nkofieho <em>Cave</em></h1>
+                                    <p>Make ancestral wish in Pitch Darkness</p>
+                                </div>
+                            </div>
+                            <div class="image">
+                                <img src="img/Nkofieho_cave.png">
                             </div>
                         </div>
-                        <div class="image">
-                            <img src="img/afram-frontpage2_1_466x360.jpg">
-                        </div>
-                    </div></a>
+                    </a>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="portfolio-item">
-                    <a href="img/bruku-text.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>Kwahu Bruku<em> god</em></h1>
-                                <p>A hike to the rock god of kwahu</p>
+                    <a href="img/bruku-text.png" data-lightbox="image-1">
+                        <div class="thumb">
+                            <div class="hover-effect">
+                                <div class="hover-content">
+                                    <h1>Kwahu Bruku<em> god</em></h1>
+                                    <p>A hike to the rock god of kwahu</p>
+                                </div>
+                            </div>
+                            <div class="image">
+                                <img src="img/bruku_rock.png">
                             </div>
                         </div>
-                        <div class="image">
-                            <img src="img/bruku_rock.jpg">
-                        </div>
-                    </div></a>
+                    </a>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
-            	<div class="portfolio-item">
-                	<a href="https://www.mentorherghana.org/">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>MentorHer <em>Ghana</em></h1>
-                                <p>Support Girls Mentorship Program</p>
+                <div class="portfolio-item">
+                    <a href="https://www.mentorherghana.org/">
+                        <div class="thumb">
+                            <div class="hover-effect">
+                                <div class="hover-content">
+                                    <h1>MentorHer <em>Ghana</em></h1>
+                                    <p>Support Girls Mentorship Program</p>
+                                </div>
+                            </div>
+                            <div class="image">
+                                <img src="img/mhg-img.jpg">
                             </div>
                         </div>
-                        <div class="image">
-                            <img src="img/mhg-img.jpg">
-                        </div>
-                    </div></a>
+                    </a>
                 </div>
             </div>
-    </div>
+        </div>
     <footer>
         <div class="container-fluid">
             <div class="col-md-12">
-                <p>Copyright &copy; 2023 LTK TOURS 
-    
-    | Designed by misaasolutions</p>
+                <p>Copyright &copy; 2023 LTK TOURS
+
+                    | Designed by SheCode | <a href="https://wa.me/message/WT52LBO6RYBJE1">Whatsapp Us</a> |  <a href="https://docs.google.com/forms/d/e/1FAIpQLScuP9S4n_51-EmpgqiVyDSngwbDJSNvhqHqjUndPx-C5t88VQ/viewform">BOOK A TOUR</a> | <a href="Packages.html">Our Packages</a></p>
+            </div>
         </div>
+           
     </footer>
 
-
-      <!-- Modal button -->
+    <!-- 
     <div class="popup-icon">
-      <button id="modBtn" class="modal-btn"><img src="img/contact-icon.png" alt=""></button>
-    </div>  
-
-    <!-- Modal -->
-    <div id="modal" class="modal">
-      <!-- Modal Content -->
-      <div class="modal-content">
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h3 class="header-title">How Can we Help<em>You</em></h3>
-          <div class="close-btn"><img src="img/close_contact.png" alt=""></div>    
-        </div>
-        <!-- Modal Body -->
-        <div class="modal-body">
-          <div class="col-md-6 col-md-offset-3">
-            <form id="contact" action="" method="post">
-                <div class="row">
-                    <div class="col-md-12">
-                      <fieldset>
-                        <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <button type="submit" id="form-submit" class="btn">Send Message Now</button>
-                      </fieldset>
-                    </div>
-                </div>
-            </form>
-          </div>
-        </div>
-      </div>
+        <button id="modBtn" class="modal-btn"><img src="img/contact-icon.png" alt=""></button>
     </div>
 
-    <section class="overlay-menu">
-      <div class="container">
-        <div class="row">
-          <div class="main-menu">
-              <ul>
-                  <li>
-                      <a href="index.html">Home </a>
-                  </li>
-                  <!-- <li>
-                      <a href="masonry.html">Home - Masonry</a>
-                  </li>
-                  <li>
-                      <a href="grid.html">Home - Small-width</a>
-                  </li> -->
-                  <li>
-                      <a href="about.html">About Us</a>
-                  </li>
-                  <li>
-                      <a href="blog.html">Blog </a>
-                  </li>
-                  <li>
-                      <a href="Packages.html">Packages</a>
-                  </li> 
-                  <li>
-                      <a href="contactus.html">Contact Us</a>
-                  </li> 
-              </ul>
-              <p>We create awesome Kwahu experience for you.</p>
-          </div>
+  
+    <div id="modal" class="modal">
+        <!-- Modal Content -->
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h3 class="header-title">How Can we Help<em>You</em></h3>
+                <div class="close-btn"><img src="img/close_contact.png" alt=""></div>
+            </div>
+
+            <!--Modal Body --> 
+            <div class="modal-body">
+                <div class="col-md-6 col-md-offset-3">
+                    <form id="contact" action="" method="post">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <input name="name" type="text" class="form-control" id="name"
+                                        placeholder="Your name..." required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="Your email..." required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <textarea name="message" rows="6" class="form-control" id="message"
+                                        placeholder="Your message..." required=""></textarea>
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <button type="submit" id="form-submit" class="btn">Send Message Now</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
+    </div> 
+
+
+    <section class="overlay-menu">
+        <div class="container">
+            <div class="row">
+                <div class="main-menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home </a>
+                        </li>
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog </a>
+                        </li>
+                        <li>
+                            <a href="Packages.html">Packages</a>
+                        </li>
+                        <li>
+                            <a href="contactus.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <p>We create awesome Kwahu experience for you.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
     <script src="js/vendor/bootstrap.min.js"></script>
-    
+
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
-    
+
 </body>
+
 </html>
