@@ -171,7 +171,7 @@ nav {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   width: 100%;
-  padding: 50px 0;
+  padding: 50px 0px;
   opacity: 0;
   text-align: center;
   transform: translateY(-100%);

@@ -27,6 +27,7 @@ flex-direction: column;
     outline: none;
     transition: 0.4s;
     margin: auto;
+    font-size: 24px;
 
 }
 .faq-body{
