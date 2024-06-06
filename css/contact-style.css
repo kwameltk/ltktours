@@ -15,6 +15,7 @@ body{
 	margin-top: 10px;
 }
 .contact-box{
+  color: black;
     background: #fff;
     display: flex;
 }

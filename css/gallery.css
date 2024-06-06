@@ -4,9 +4,8 @@
   background-image: url("/img/kente.jpg");
   padding: 16px;
   background-size: cover;
-  
-
 }
+
 .detailed-view-heading {
   color: wheat;
   text-align: center;
@@ -14,7 +13,6 @@
   font-family: 'Roboto';
   font-weight: bold;
   padding: 24px;
-  
 
 }
 .detailed-view-card-container {
@@ -25,15 +23,16 @@
 
 }
 .detailed-view-card-heading{
-  color: #0f0e46;
+  color: black;
   font-family: "Roboto";
-  font-size: 23px;
+  font-size: 35px;
   font-weight: bold;
   text-align: center;
+  padding-bottom: 20px;
 }
 .detailed-view-card-description {
   font-family: "Roboto";
-  font-size: 13px;
+  font-size: 30px;
   color: #6c6b70;
 }
 .detailed-view-card-text-container {

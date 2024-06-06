@@ -617,11 +617,6 @@ footer a:hover {
   position: relative;
 }
 
-.masonry .item {
-  display: inline-block;
-  float: left;
-}
-
 .masonry .first-item {
   margin-bottom: -0.5px;
 }
